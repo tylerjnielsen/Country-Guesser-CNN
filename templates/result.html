@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GeoGuessr Result</title>
+</head>
+<body>
+    <h1>GeoGuessr Prediction Results</h1>
+    <p>Image ID: {{ image_id }}</p>
+    <img src="{{ image_url }}" alt="Image {{ image_id }}">
+    <p>Your Country Guess: {{ user_country }}</p>
+    <p>Your City Guess: {{ user_city }}</p>
+    <p>Predicted Country: {{ predicted_country }}</p>
+    <p>Predicted City: {{ predicted_city }}</p>
+    <p>Score for this round: {{ user_score }}</p>
+    <p>Total Score: {{ total_score }}</p>
+    <a href="/">Play Again</a>
+</body>
+</html>

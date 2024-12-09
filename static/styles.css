@@ -1,0 +1,143 @@
+
+body {
+    background: linear-gradient(90deg, hsl(293, 73%, 39%),#010131 );
+    color: #32CD32;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 1.75em;
+    overflow-y: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5em;
+    margin: 0.5em 0 1.5em;
+    color: #32CD32;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    max-width: 900px;
+    padding: 20px;
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
+}
+
+.image-preview {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-preview img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: none;
+    display: block;
+}
+
+.guess-input {
+    margin-bottom: 20px;
+}
+
+.guess-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+.guess-section {
+    text-align: center;
+}
+
+.styled-button {
+    margin: 20px auto;
+    background-color: #32CD32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+.styled-button:hover {
+    background-color: #32CD32;
+    transform: scale(1.05);
+}
+
+#image-id-input {
+    width: 200px;
+    height: 40px;
+    background-color: #2e2e2e;
+    border: 2px solid #32CD32;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#image-id-input:focus {
+    outline: none;
+    border-color: #32CD32;
+    box-shadow: 0 0 8px #32CD32;
+}
+
+#country-input,
+#city-input {
+    width: 200px;
+    height: 40px;
+    background-color: #2e2e2e;
+    border: 2px solid #32CD32;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#country-input:focus,
+#city-input:focus {
+    outline: none;
+    border-color: #32CD32;
+    box-shadow: 0 0 8px #32CD32;
+}
+.upload-section {
+    text-align: center;
+}
+
+#upload-button {
+    margin: 20px auto;
+    background-color: #32CD32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#upload-button:hover {
+    background-color: #32CD32;
+    transform: scale(1.05);
+}
