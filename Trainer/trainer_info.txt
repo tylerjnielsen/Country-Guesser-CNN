@@ -1,0 +1,2 @@
+This is the final version of the Python script that trained the model.
+It takes several hours to run on any normal machine.
